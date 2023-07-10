@@ -1,0 +1,17 @@
+{
+  "name": "bottelegram_ver2",
+  "version": "1.0.0",
+  "description": "This is a Telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "author": "vonhucong",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemon": "^3.0.1"
+  }
+}
